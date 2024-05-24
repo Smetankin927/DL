@@ -46,3 +46,6 @@ Useful information for us is contained in the following fields of this data:
 
 **tx4** : Same as tx1 but with a -6.5 x RMS threshold.
 
+# Our solutions
+
+1. [***Encoder-decoder Sec2Sec model + attention***]( https://ethen8181.github.io/machine-learning/deep_learning/seq2seq/2_torch_seq2seq_attention.html#Seq2Seq), [link_2](https://www.kaggle.com/code/isikkuntay/gru-with-attention), but since our data is Time x Channels -- matrix with shape (t,256) this model were modified by adding convolutional layers to reduse dimension to (t,1). This model was chosen in attempt to take more information from timeseries data. Attention mechanism should (in theory) help to take into account different part of the data since people think words in their entirety.
