@@ -23,3 +23,12 @@ Link for [dataset](https://datadryad.org/stash/dataset/doi:10.5061/dryad.x69p8cz
 
 This competition asks participants to solve a problem that borders on the fantastic -- to teach a computer to translate human thoughts into text. More specifically, the challenge is to train a neural network to decode the data coming from the EEG and convert it into sentences.
 
+## Data structure 
+During neurobiological experiments neural activity was recorded with microelectrode arrays, and neural features are provided in the form of binned threshold crossings and spike band power (20 ms bins).
+
+This dataset contains all of the neural activity recorded during these experiments, consisting of 12,100 spoken sentences as well as instructed delay experiments designed to investigate the neural representation of orofacial movement and speech production.
+
+The data have also been formatted for developing and evaluating machine learning decoding methods, and we intend to host a decoding competition based on this data.
+
+
+
