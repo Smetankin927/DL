@@ -20,3 +20,6 @@
 Our project is related to Kaggle challenge ["Brain-to-Text Benchmark '24"](https://eval.ai/web/challenges/challenge-page/2099/overview)
 
 Link for [dataset](https://datadryad.org/stash/dataset/doi:10.5061/dryad.x69p8czpq)
+
+This competition asks participants to solve a problem that borders on the fantastic -- to teach a computer to translate human thoughts into text. More specifically, the challenge is to train a neural network to decode the data coming from the EEG and convert it into sentences.
+
